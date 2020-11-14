@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Github Profile</title>
+
+	<!-- <link rel='icon' type='image/png' href='favicon.png'> -->
+
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/fontawesome-free-5.13.0-web/css/all.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+	<div class="nav-bar">
+		<header>
+			<div class="nav">
+				<div class="icon-github fab fa-github"></div>
+				<!-- <div class="title">Github</div> -->
+				<div class="search-bar">
+					<input type="text" id="search-box" name="" class="search-box" placeholder="Search or jump to.." />
+					<div id="search-snippet" class="search-snippet">
+						<!-- <div>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<ul id="nav-links" class="nav-links">
+				<li><a href="#">Pull requests</a></li>
+				<li><a href="#">Issues</a></li>
+				<li><a href="#">Codespaces</a></li>
+				<li><a href="#">Marketplace</a></li>
+				<li><a href="#">Explore</a></li>
+			</ul>
+		</header>
+
+		<div class="right-items">
+			<button class="item">
+				<div class="fa fa-bell"></div>
+			</button>
+			<button class="item">
+				<div class="fa fa-plus"></div>
+			</button>
+
+			<button class="menu-bar" onclick="tabToggle()">
+		<div class="menu-bars"></div>
+		<div class="menu-bars"></div>
+		<div class="menu-bars"></div>
+		</button>
+		</div>
+	</div>
+
+	<div id="main" class="main-body">
+		<div class="column-1">
+			<div class="grid-item-1">
+				<div class="item-1-top">
+					<!-- <div class="profile-img"></div> -->
+					 <img src="https://avatars2.githubusercontent.com/u/56704811?v=4" class="profile-img" /> 
+					<div class="name-group">
+						<div id="name" class="name"></div>
+					<div id="repo-name" class="repo-name"></div>
+					</div>
+				</div>
+					<div id="biography" class="biography"></div>
+			</div>		
+		</div>
+
+		<div class="column-2">
+			<ul class="menu-tabs">
+				<li>
+					<a href="#"><div class="mb-icon fa fa-dashboard"></div>Overview</a>
+				</li>
+				<li>
+					<a href="#" class="repos-single">
+						<div class="mb-icon fa fa-book"></div>
+					Repositories
+					<span id="counter" class="counter">3</span>
+				</a>
+				</li>
+				<li>
+					<a href="#"><div class="mb-icon fa fa-projects"></div>Projects</a>
+				</li>
+				<li>
+					<a href="#"><div class="mb-icon fa fa-cube"></div>Packages</a>
+				</li>
+			</ul>
+
+			<div id="repositories" class="repositories">
+				<!-- <div class="card">
+					<div class="card-left">
+							<div class="repo">Cipher</div>
+							<div class="repo-description">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit
+							</div>
+							<div class="encodings">
+								<span>Javascript</span>
+								<span id="github-stars"><div class="github-stars fa fa-star"></div>22</span>
+								<span class="forks">1</span>
+							</div>
+					</div>
+					<div class="card-right">
+						<button class="star-btn">
+							<div class="fa fa-star"></div>
+							Star
+						</button>
+					</div>
+				</div> -->
+
+				
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/script.js" defer></script>
+</body>
+</html>
