@@ -4,9 +4,12 @@
   "description": "",
   "main": "./dist/js/script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node start"
   },
   "keywords": [],
+  "dependencies": {
+  "live-server": "0.8.0"
+  },
   "author": "",
   "license": "ISC"
 }
