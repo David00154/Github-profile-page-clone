@@ -2,9 +2,9 @@
   "name": "Github-profile-page-clone",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/js/script.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node start"
+    "start": "node server"
   },
   "keywords": [],
   "dependencies": {
